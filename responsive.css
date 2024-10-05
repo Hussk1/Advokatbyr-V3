@@ -1,0 +1,577 @@
+/* ==================== Essentionals ==================== */
+
+@media (max-width: 1200px) {
+    .container {
+        max-width: 960px;
+        /* Adjust max width for medium-large screens */
+        width: 95%;
+        /* Increase width percentage for medium-large screens */
+    }
+
+    .btn {
+        padding: 18px 36px;
+        /* Adjust padding for medium-large screens */
+        font-size: 0.9rem;
+        /* Slightly smaller font size */
+    }
+}
+
+@media (max-width: 992px) {
+    .container {
+        max-width: 800px;
+        /* Adjust max width for tablets */
+        width: 95%;
+        /* Increase width percentage for tablets */
+    }
+
+    .btn {
+        padding: 15px 30px;
+        /* Adjust padding for tablets */
+        font-size: 0.85rem;
+        /* Smaller font size for tablets */
+    }
+}
+
+@media (max-width: 768px) {
+    .container {
+        max-width: 600px;
+        /* Adjust max width for smaller tablets and large phones */
+        width: 95%;
+        /* Increase width percentage for smaller tablets and large phones */
+    }
+
+    .btn {
+        padding: 12px 25px;
+        /* Adjust padding for smaller tablets and large phones */
+        font-size: 0.8rem;
+        /* Smaller font size for smaller tablets and large phones */
+    }
+}
+
+@media (max-width: 576px) {
+    .container {
+        max-width: 100%;
+        /* Full width for small phones */
+        width: 100%;
+        /* Full width for small phones */
+        padding: 0 10px;
+        /* Less padding for small screens */
+    }
+
+    .btn {
+        padding: 10px 20px;
+        /* Adjust padding for small phones */
+        font-size: 0.75rem;
+        /* Even smaller font size for small phones */
+    }
+}
+
+/* ==================== Navbar ==================== */
+
+@media (max-width: 1200px) {
+    .burger {
+        width: 1.4rem;
+        height: 1rem;
+    }
+
+    .burger-line {
+        height: 1.5px;
+    }
+
+    .brand {
+        font-size: 1.4rem;
+    }
+
+    .menu-link {
+        font-size: 0.9rem;
+    }
+}
+
+@media (max-width: 992px) {
+    .burger {
+        width: 1.2rem;
+        height: 0.9rem;
+    }
+
+    .burger-line {
+        height: 1.5px;
+    }
+
+    .brand {
+        font-size: 1.2rem;
+    }
+
+    .menu-link {
+        font-size: 0.85rem;
+    }
+}
+
+@media (max-width: 768px) {
+    .navbar {
+        padding: 0 1rem;
+    }
+
+    .menu {
+        padding: 3rem 0 2rem;
+    }
+
+    .menu-link {
+        font-size: 0.9rem;
+    }
+}
+
+@media (max-width: 576px) {
+    .burger {
+        width: 1.2rem;
+        height: 0.9rem;
+    }
+
+    .burger-line {
+        height: 1.5px;
+    }
+
+    .menu-link {
+        font-size: 0.75rem;
+    }
+}
+
+/* ==================== Hero ==================== */
+
+@media (max-width: 1024px) {
+    .hero-img {
+        display: none;
+    }
+    main {
+        background: var(--color-secondary-100);
+    }
+    .cta {
+        display: none;
+    }
+}
+
+/* Mobile Devices */
+@media (max-width: 768px) {
+    .hero-title h1 {
+        font-size: 36px; /* Approx. 8vw on a 768px screen */
+        line-height: 2.4rem;
+    }
+    .hero-title .btn {
+        padding: 0.6em 1.4em;
+        font-size: 24px; /* Adjust button font size for mobile */
+        margin: 10px 0;
+    }
+    .hero-content {
+        align-items: center;
+    }
+    .hero-img {
+        max-width: 90%;
+    }
+}
+
+/* Small Mobile */
+@media (max-width: 480px) {
+    main {
+        padding: 0 10px;
+    }
+    .hero-title .btn {
+        padding: 0.6em 1em;
+        font-size: 20px; /* Adjust button font size for small mobile */
+    }
+    .hero-img {
+        max-width: 100%;
+    }
+}
+
+
+/* ==================== Service-text ==================== */
+
+@media (max-width: 1024px) {
+    .service-text {
+        padding: 40px;  /* Reduce padding for tablet devices */
+    }
+    .service-text h1 {
+        font-size: 2.5rem; /* Adjust heading size for tablets */
+    }
+}
+
+/* Mobile Devices */
+@media (max-width: 768px) {
+    .service-text {
+        padding: 30px;  /* Further reduce padding for mobile devices */
+    }
+    .service-text h1 {
+        font-size: 2rem; /* Adjust heading size for mobile */
+    }
+}
+
+/* Small Mobile Devices */
+@media (max-width: 480px) {
+    .service-text {
+        padding: 20px;  /* Minimal padding for smaller screens */
+    }
+    .service-text h1 {
+        font-size: 1.8rem; /* Smaller heading size for small screens */
+    }
+}
+
+/* ==================== Service ==================== */
+
+
+@media (max-width: 1024px) {
+    .service-items {
+        grid-template-columns: repeat(2, 1fr); /* 2 columns for tablets */
+        column-gap: 15px;
+        row-gap: 60px;
+    }
+    .service-card {
+        padding: 20px; /* Adjust padding for smaller screens */
+    }
+    .service-card i {
+        font-size: 4rem; /* Adjust icon size for smaller screens */
+    }
+    .service-card h3 {
+        font-size: 1.4rem; /* Adjust heading size for smaller screens */
+    }
+}
+
+/* Mobile Devices */
+@media (max-width: 768px) {
+    .service-items {
+        grid-template-columns: 1fr; /* 1 column for mobile devices */
+        row-gap: 50px;
+    }
+    .service-card {
+        padding: 20px;
+    }
+    .service-card i {
+        font-size: 3.5rem; /* Smaller icon size for mobile */
+    }
+    .service-card h3 {
+        font-size: 1.2rem; /* Smaller heading for mobile */
+    }
+}
+
+/* Small Mobile Devices */
+@media (max-width: 480px) {
+    .service-items {
+        row-gap: 40px; /* Smaller gaps between rows */
+    }
+    .service-card i {
+        font-size: 3rem; /* Even smaller icon size */
+    }
+    .service-card h3 {
+        font-size: 1.1rem; /* Smaller heading */
+    }
+}
+
+/* ==================== About ==================== */
+
+@media (max-width: 1094px) {
+    .about {
+        padding: 100px 20px; /* Reduce padding for tablet devices */
+    }
+    .about-content {
+        flex-direction: column;
+        text-align: center;
+        gap: 20px;
+    }
+    .about-img img {
+        max-width: 100%;
+        height: auto;
+    }
+    .about-box {
+        max-width: 90%;
+    }
+    .about-title h1 {
+        font-size: 2rem; /* Reduce heading size for tablets */
+    }
+    .about-title p {
+        font-size: 1rem; /* Slightly smaller paragraph text */
+    }
+}
+
+/* Mobile Screens */
+@media (max-width: 768px) {
+    .about {
+        padding: 80px 20px;
+    }
+    .about-content {
+        flex-direction: column;
+        align-items: center;
+        gap: 15px;
+    }
+    .about-box {
+        max-width: 100%;
+    }
+    .about-title h1 {
+        font-size: 1.8rem; /* Smaller heading size */
+    }
+    .about-title p {
+        font-size: 0.95rem; /* Smaller paragraph size */
+    }
+    .about-list li {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 12px;
+    }
+}
+
+/* Small Mobile Screens */
+@media (max-width: 480px) {
+    .about {
+        padding: 60px 10px; /* Minimal padding for small screens */
+    }
+    .about-title h1 {
+        font-size: 1.5rem; /* Adjust heading size */
+    }
+    .about-title p {
+        font-size: 0.9rem; /* Smaller paragraph text */
+    }
+    .about-btn .btn {
+        padding: 0.7em 1.5em; /* Adjust button padding */
+    }
+}
+
+/* ==================== Stats ==================== */
+
+@media (max-width: 1200px) {
+    .stats-content {
+        flex-direction: column; /* Stack items vertically on larger tablets */
+        align-items: center; /* Center items */
+    }
+
+    .stats-items::after {
+        display: none; /* Hide the separator for the last item */
+    }
+
+    .stats {
+        height: auto; /* Allow height to adjust for smaller screens */
+    }
+}
+
+@media (max-width: 768px) {
+
+    .stats-items {
+        padding: 15px; /* Reduce padding for smaller screens */
+    }
+}
+
+@media (max-width: 576px) {
+    .stats-items {
+        padding: 10px; /* Further reduce padding */
+    }
+
+    .stats-content {
+        justify-content: center; /* Center items on very small screens */
+        text-align: center; /* Center text alignment for smaller screens */
+    }
+}
+
+/* ==================== Team ==================== */
+
+@media (max-width: 768px) {
+    .team-card {
+        display: block;
+    }
+}
+
+@media (max-width: 576px) {
+    .team-title h1 {
+        font-size: 2rem; /* Smaller font size for title */
+    }
+
+    .team-title p {
+        font-size: 1rem; /* Smaller font size for paragraph */
+    }
+
+    .team-cards {
+        margin: 10px; /* Reduced margin for smaller screens */
+        padding: 15px; /* Reduced padding */
+    }
+}
+
+
+/* ==================== Contact ==================== */
+
+@media (max-width: 1200px) {
+    .contact {
+        padding: 100px;
+        /* Adjust padding for medium screens */
+    }
+
+    .contact .container {
+        padding: 80px;
+        /* Adjust padding inside the container */
+    }
+}
+
+@media (max-width: 992px) {
+    .contact {
+        padding: 80px;
+        /* Adjust padding for tablets */
+    }
+
+    .contact .container {
+        padding: 60px;
+        /* Adjust padding inside the container */
+    }
+
+    .form-row {
+        flex-direction: column;
+        /* Stack form fields vertically on smaller screens */
+    }
+
+    .form-group {
+        margin-bottom: 15px;
+        /* Adjust spacing between fields */
+    }
+
+    .contact-top h1 {
+        font-size: 2.2rem;
+        /* Slightly smaller for medium screens */
+    }
+
+    .contact-top p {
+        font-size: 1rem;
+        /* Slightly smaller for medium screens */
+    }
+
+    .contact .container {
+        padding: 100px;
+    }
+
+    .contact-top h1 {
+        font-size: 1.8rem;
+        /* Smaller font size for tablets */
+    }
+
+    .contact-top p {
+        font-size: 0.9rem;
+        /* Smaller font size for tablets */
+    }
+
+    .contact .container {
+        padding: 80px;
+    }
+}
+
+@media (max-width: 768px) {
+    .contact {
+        padding: 60px;
+        /* Adjust padding for smaller tablets and large phones */
+    }
+
+    .contact .container {
+        padding: 40px;
+        /* Adjust padding inside the container */
+    }
+
+    .form-group input,
+    .form-group textarea {
+        font-size: 14px;
+        /* Smaller font size for form inputs */
+    }
+
+    .contact-top h1 {
+        font-size: 1.6rem;
+        /* Smaller font size for smaller tablets */
+    }
+
+    .contact-top p {
+        font-size: 0.85rem;
+        /* Smaller font size for smaller tablets */
+    }
+
+    .contact .container {
+        padding: 60px;
+    }
+}
+
+@media (max-width: 576px) {
+    .contact {
+        padding: 40px;
+        /* Adjust padding for small screens */
+    }
+
+    .contact .container {
+        padding: 20px;
+        /* Adjust padding inside the container */
+    }
+
+    .form-group input,
+    .form-group textarea {
+        font-size: 12px;
+        /* Smaller font size for very small screens */
+        padding: 12px;
+        /* Adjust padding inside form inputs */
+    }
+
+    button {
+        padding: 8px 16px;
+        /* Adjust button size for small screens */
+        font-size: 14px;
+        /* Adjust font size for button text */
+    }
+
+    .contact-top h1 {
+        font-size: 1.4rem;
+        /* Smaller font size for phones */
+    }
+
+    .contact-top p {
+        font-size: 0.75rem;
+        /* Smaller font size for phones */
+    }
+
+    .form-row {
+        flex-direction: column;
+        /* Stack form fields vertically on small screens */
+        gap: 10px;
+    }
+
+    .form-group {
+        margin-bottom: 10px;
+    }
+}
+
+/* ==================== Footer ==================== */
+
+@media only screen and (max-width: 990px) and (min-width: 200px) {
+    .footer .inner {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    }
+
+    .start-learning {
+        position: unset;
+    }
+
+    .footer-start {
+        width: 100%;
+        display: block;
+        padding: 30px 20px;
+        margin: 30px 0;
+    }
+
+    .section-title {
+        font-size: 30px;
+    }
+
+    .section-sub-heading {
+        font-size: 18px;
+    }
+
+    footer.footer {
+        padding-top: 0;
+    }
+
+    a.button {
+        height: 50px;
+        margin-top: 10px;
+    }
+
+    .column.is-logo {
+        order: 4;
+    }
+}
